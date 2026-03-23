@@ -70,10 +70,10 @@ const siteData = {
     ctaPrimary: "Apply Now",
     ctaSecondary: "Our Programmes",
     trustBadge: "Accredited & Recognised",
-    backgroundImage: "https://images.unsplash.com/photo-1523050854058-8df90110c476?w=1400",
+    backgroundImage: "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=1200",
     backgroundAlt: "Ridley College students in an engaging classroom session",
     backgroundImages: [
-      { url: "https://images.unsplash.com/photo-1523050854058-8df90110c476?w=1400", alt: "Students in a modern classroom environment" },
+      { url: "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=1200", alt: "Students in a modern classroom environment" },
       { url: "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=1400", alt: "Private college campus with manicured gardens" },
       { url: "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=1400", alt: "One-on-one tutoring session with expert mentor" },
     ],
@@ -96,7 +96,7 @@ const siteData = {
   ],
 
   featuredProjects: [
-    { image: "https://images.unsplash.com/photo-1523050854058-8df90110c476?w=800", title: "Cambridge A-Level Success 2024", category: "Exam Results" },
+    { image: "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=1200", title: "Cambridge A-Level Success 2024", category: "Exam Results" },
     { image: "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=800", title: "New Science Laboratory", category: "Facilities" },
     { image: "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=800", title: "International University Placements", category: "Student Success" },
   ],
@@ -183,7 +183,7 @@ const siteData = {
     heroTitle: [{ text: "Academic " }, { text: "Programmes", highlight: true }, { text: " & Tutoring" }],
     heroSubtitle: "From Cambridge IGCSE to university preparation, our programmes are designed to unlock your full academic potential.",
     items: [
-      { iconName: "GraduationCap", title: "Cambridge IGCSE & A-Level", slug: "cambridge-igcse-alevel", image: "https://images.unsplash.com/photo-1523050854058-8df90110c476?w=800", desc: "Comprehensive Cambridge International preparation with small classes, expert tutors, and consistent distinction-level results.", features: ["Official Cambridge examination centre", "Maximum 12 students per class", "Subject specialist tutors with advanced degrees", "Regular mock examinations and feedback", "Past paper libraries and study resources", "Consistent 80%+ distinction rate"] },
+      { iconName: "GraduationCap", title: "Cambridge IGCSE & A-Level", slug: "cambridge-igcse-alevel", image: "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=1200", desc: "Comprehensive Cambridge International preparation with small classes, expert tutors, and consistent distinction-level results.", features: ["Official Cambridge examination centre", "Maximum 12 students per class", "Subject specialist tutors with advanced degrees", "Regular mock examinations and feedback", "Past paper libraries and study resources", "Consistent 80%+ distinction rate"] },
       { iconName: "Users", title: "Private Tutoring", slug: "private-tutoring", image: "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=800", desc: "One-on-one sessions tailored to your specific needs, learning style, and goals. From catch-up to extension, we meet you where you are.", features: ["Personalised learning plans for each student", "Flexible scheduling including evenings and weekends", "All subjects from primary to A-Level", "Progress reports shared with parents regularly", "Homework support and study skills coaching", "Online tutoring option available"] },
       { iconName: "Lightbulb", title: "ZIMSEC Preparation", slug: "zimsec-preparation", image: "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800", desc: "Intensive O-Level and A-Level preparation with proven exam technique coaching, model answers, and structured revision plans.", features: ["Full ZIMSEC syllabus coverage", "Past paper drilling and exam technique workshops", "Model answer analysis and marking scheme mastery", "Regular progress assessments and parent feedback", "Subject-specific revision notes and summaries", "Guaranteed improvement or extended support"] },
       { iconName: "Star", title: "Accelerated Learning", slug: "accelerated-learning", image: "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=800", desc: "Fast-track programmes for gifted and motivated students who want to complete qualifications ahead of schedule.", features: ["Complete O-Levels in 1 year instead of 2", "A-Level fast-track for advanced students", "Enrichment activities and academic competitions", "University-level preparation modules", "Mentorship from top-performing alumni", "Recognised by universities for early entry"] },
@@ -199,7 +199,7 @@ const siteData = {
     heroSubtitle: "From outstanding exam results to campus development, explore the milestones that define Ridley College.",
     categories: ["All", "Exam Results", "Facilities", "Student Success", "Community"],
     items: [
-      { id: 1, title: "Cambridge A-Level Success 2024", category: "Exam Results", location: "Harare", year: "2024", image: "https://images.unsplash.com/photo-1523050854058-8df90110c476?w=800", desc: "92% of A-Level students achieved A*-B grades, with 6 students earning straight A*s across all subjects.", services: ["Cambridge A-Level", "Mathematics", "Sciences"] },
+      { id: 1, title: "Cambridge A-Level Success 2024", category: "Exam Results", location: "Harare", year: "2024", image: "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=1200", desc: "92% of A-Level students achieved A*-B grades, with 6 students earning straight A*s across all subjects.", services: ["Cambridge A-Level", "Mathematics", "Sciences"] },
       { id: 2, title: "New Science Laboratory", category: "Facilities", location: "Pomona Campus", year: "2024", image: "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=800", desc: "A fully equipped physics, chemistry, and biology laboratory enabling hands-on practical examinations.", services: ["Lab Construction", "Equipment Installation"] },
       { id: 3, title: "UK University Placements", category: "Student Success", location: "United Kingdom", year: "2024", image: "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=800", desc: "12 Ridley students secured places at Russell Group universities in the UK, including UCL and Edinburgh.", services: ["University Prep", "IELTS Training"] },
       { id: 4, title: "ZIMSEC O-Level 100% Pass Rate", category: "Exam Results", location: "Harare", year: "2023", image: "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800", desc: "Third consecutive year of 100% pass rate in ZIMSEC O-Level examinations. 78% achieved 5+ A grades.", services: ["ZIMSEC Preparation", "Exam Coaching"] },
