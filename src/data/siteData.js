@@ -27,7 +27,7 @@ export const designTokens = {
 
 const siteData = {
   business: {
-    name: "RIDLEY COLLEGE ZW",
+    name: "RIDLEY COLLEGE ZW", image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face",
     legalName: "Ridley College Zimbabwe (Pvt) Ltd",
     tagline: "Modern Education, Exceptional Results",
     description:
@@ -132,9 +132,9 @@ const siteData = {
   },
 
   homeTestimonials: [
-    { name: "Tadiwanashe Mujuru", role: "Cambridge A-Level Student", text: "Ridley College transformed my grades completely. I went from a C to an A* in Mathematics in just one term. The tutors here are genuinely exceptional and they never give up on you.", rating: 5 },
-    { name: "Ruvimbo Chikomba", role: "Parent of IGCSE Student", text: "Moving our daughter to Ridley was the best decision we ever made. The small class sizes mean she gets personal attention. Her confidence and grades have both soared.", rating: 5 },
-    { name: "Kundai Mashava", role: "University Prep Student", text: "The SAT preparation and university counselling at Ridley helped me secure admission to a top UK university. The personal statement coaching was invaluable.", rating: 5 },
+    { name: "Tadiwanashe Mujuru", image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=face", role: "Cambridge A-Level Student", text: "Ridley College transformed my grades completely. I went from a C to an A* in Mathematics in just one term. The tutors here are genuinely exceptional and they never give up on you.", rating: 5 },
+    { name: "Ruvimbo Chikomba", image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=face", role: "Parent of IGCSE Student", text: "Moving our daughter to Ridley was the best decision we ever made. The small class sizes mean she gets personal attention. Her confidence and grades have both soared.", rating: 5 },
+    { name: "Kundai Mashava", image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face", role: "University Prep Student", text: "The SAT preparation and university counselling at Ridley helped me secure admission to a top UK university. The personal statement coaching was invaluable.", rating: 5 },
   ],
 
   about: {
@@ -161,10 +161,10 @@ const siteData = {
       { iconName: "Trophy", title: "Achievement", desc: "We celebrate success and learn from setbacks with resilience." },
     ],
     team: [
-      { name: "Mr. Tawanda Ridley", role: "College Director", image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400" },
-      { name: "Mrs. Petronella Dube", role: "Academic Coordinator", image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400" },
-      { name: "Mr. Collins Makumbe", role: "Head of Sciences", image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400" },
-      { name: "Ms. Tatenda Mugabe", role: "Student Welfare Officer", image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400" },
+      { name: "Mr. Tawanda Ridley", image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face", role: "College Director", image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400" },
+      { name: "Mrs. Petronella Dube", image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&h=100&fit=crop&crop=face", role: "Academic Coordinator", image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400" },
+      { name: "Mr. Collins Makumbe", image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&h=100&fit=crop&crop=face", role: "Head of Sciences", image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400" },
+      { name: "Ms. Tatenda Mugabe", image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop&crop=face", role: "Student Welfare Officer", image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400" },
     ],
     milestones: [
       { year: "2015", title: "College Founded", desc: "Ridley College opens in Pomona with a vision for personalised education." },
@@ -213,23 +213,23 @@ const siteData = {
     heroSubtitle: "Our perfect 5-star rating reflects the transformative impact Ridley College has on every student who walks through our doors.",
     ratingBreakdown: [{ stars: 5, count: 15 }, { stars: 4, count: 0 }, { stars: 3, count: 0 }, { stars: 2, count: 0 }, { stars: 1, count: 0 }],
     items: [
-      { name: "Tadiwanashe Mujuru", role: "A-Level Student", text: "Ridley College transformed my grades completely. I went from a C to an A* in Mathematics in just one term.", rating: 5, date: "2024-09-05", project: "Cambridge A-Level" },
-      { name: "Ruvimbo Chikomba", role: "Parent", text: "Moving our daughter to Ridley was the best decision we ever made. The small class sizes mean she gets personal attention.", rating: 5, date: "2024-08-20", project: "IGCSE Programme" },
-      { name: "Kundai Mashava", role: "University Prep Student", text: "The SAT preparation and university counselling helped me secure admission to a top UK university.", rating: 5, date: "2024-07-15", project: "University Prep" },
-      { name: "Mr. Tapiwa Nyoni", role: "Parent of Two Students", text: "Both my children attend Ridley and the improvement is remarkable. The tutors know each child's strengths and weaknesses.", rating: 5, date: "2024-06-10", project: "O-Level Programme" },
-      { name: "Nyasha Dziva", role: "IGCSE Student", text: "The exam revision bootcamp before my IGCSEs was incredible. Two weeks of intense preparation that completely changed my results.", rating: 5, date: "2024-05-22", project: "Revision Bootcamp" },
-      { name: "Mrs. Chenai Pfumbi", role: "Parent", text: "Ridley College feels like a family. The teachers genuinely care about each student. My son's confidence has grown tremendously since joining.", rating: 5, date: "2024-04-18", project: "Private Tutoring" },
-      { name: "Tino Machiridza", role: "A-Level Graduate", text: "I achieved 3 A*s at A-Level thanks to Ridley. The accelerated learning programme let me complete in 18 months instead of 2 years.", rating: 5, date: "2024-03-12", project: "Accelerated Learning" },
-      { name: "Panashe Chigara", role: "O-Level Student", text: "The ZIMSEC preparation is thorough and effective. Past paper drills and exam technique workshops made all the difference.", rating: 5, date: "2024-02-28", project: "ZIMSEC Preparation" },
-      { name: "Dr. Fungai Moyo", role: "Parent", text: "As a doctor, I understand the importance of personalised attention. Ridley provides exactly that. My daughter is thriving academically and socially.", rating: 5, date: "2024-01-15", project: "Cambridge IGCSE" },
-      { name: "Rutendo Chidemo", role: "Private Tutoring Student", text: "The one-on-one tutoring in Chemistry helped me understand concepts I had struggled with for years. My tutor was patient and brilliant.", rating: 5, date: "2023-12-08", project: "Private Tutoring" },
-      { name: "Kudzai Madanhire", role: "A-Level Student", text: "Ridley's university counselling service is exceptional. They helped me identify the right universities and craft a compelling personal statement.", rating: 5, date: "2023-11-20", project: "University Prep" },
-      { name: "Mrs. Sithembile Ncube", role: "Parent", text: "The communication with parents is outstanding. Regular progress reports, parent meetings, and an open-door policy make me feel involved in my child's education.", rating: 5, date: "2023-10-15", project: "Parent Communication" },
-      { name: "Tinotenda Shumba", role: "IGCSE Graduate", text: "I achieved 9 A*s in my IGCSEs. Ridley's structured approach and dedicated tutors made this possible. I am forever grateful.", rating: 5, date: "2023-09-28", project: "Cambridge IGCSE" },
-      { name: "Anopa Mutasa", role: "Revision Bootcamp Student", text: "The bootcamp was intense but worth every minute. The daily mock exams and immediate feedback built my confidence for the real thing.", rating: 5, date: "2023-08-14", project: "Revision Bootcamp" },
-      { name: "Mr. Simbarashe Choto", role: "Parent", text: "We transferred our son from a government school and the difference was immediate. Smaller classes, better resources, and tutors who actually care.", rating: 5, date: "2023-07-22", project: "O-Level Programme" },
-      { name: "Makanaka Zvobgo", role: "A-Level Student", text: "The Pomona campus is beautiful and peaceful. It is the perfect environment for focused studying. I love coming to school every day.", rating: 5, date: "2023-06-30", project: "Campus Life" },
-      { name: "Tafadzwa Chirinda", role: "IELTS Prep Student", text: "I needed an IELTS score of 7.0 for university admission. Ridley's preparation course helped me achieve 7.5. Their techniques really work.", rating: 5, date: "2023-05-15", project: "IELTS Preparation" },
+      { name: "Tadiwanashe Mujuru", image: "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&h=100&fit=crop&crop=face", role: "A-Level Student", text: "Ridley College transformed my grades completely. I went from a C to an A* in Mathematics in just one term.", rating: 5, date: "2024-09-05", project: "Cambridge A-Level" },
+      { name: "Ruvimbo Chikomba", image: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=100&h=100&fit=crop&crop=face", role: "Parent", text: "Moving our daughter to Ridley was the best decision we ever made. The small class sizes mean she gets personal attention.", rating: 5, date: "2024-08-20", project: "IGCSE Programme" },
+      { name: "Kundai Mashava", image: "https://images.unsplash.com/photo-1517365830460-955ce3ccd263?w=100&h=100&fit=crop&crop=face", role: "University Prep Student", text: "The SAT preparation and university counselling helped me secure admission to a top UK university.", rating: 5, date: "2024-07-15", project: "University Prep" },
+      { name: "Mr. Tapiwa Nyoni", image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=100&h=100&fit=crop&crop=face", role: "Parent of Two Students", text: "Both my children attend Ridley and the improvement is remarkable. The tutors know each child's strengths and weaknesses.", rating: 5, date: "2024-06-10", project: "O-Level Programme" },
+      { name: "Nyasha Dziva", image: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=100&h=100&fit=crop&crop=face", role: "IGCSE Student", text: "The exam revision bootcamp before my IGCSEs was incredible. Two weeks of intense preparation that completely changed my results.", rating: 5, date: "2024-05-22", project: "Revision Bootcamp" },
+      { name: "Mrs. Chenai Pfumbi", image: "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=100&h=100&fit=crop&crop=face", role: "Parent", text: "Ridley College feels like a family. The teachers genuinely care about each student. My son's confidence has grown tremendously since joining.", rating: 5, date: "2024-04-18", project: "Private Tutoring" },
+      { name: "Tino Machiridza", image: "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=100&h=100&fit=crop&crop=face", role: "A-Level Graduate", text: "I achieved 3 A*s at A-Level thanks to Ridley. The accelerated learning programme let me complete in 18 months instead of 2 years.", rating: 5, date: "2024-03-12", project: "Accelerated Learning" },
+      { name: "Panashe Chigara", image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=100&h=100&fit=crop&crop=face", role: "O-Level Student", text: "The ZIMSEC preparation is thorough and effective. Past paper drills and exam technique workshops made all the difference.", rating: 5, date: "2024-02-28", project: "ZIMSEC Preparation" },
+      { name: "Dr. Fungai Moyo", image: "https://images.unsplash.com/photo-1552058544-f2b08422138a?w=100&h=100&fit=crop&crop=face", role: "Parent", text: "As a doctor, I understand the importance of personalised attention. Ridley provides exactly that. My daughter is thriving academically and socially.", rating: 5, date: "2024-01-15", project: "Cambridge IGCSE" },
+      { name: "Rutendo Chidemo", image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face", role: "Private Tutoring Student", text: "The one-on-one tutoring in Chemistry helped me understand concepts I had struggled with for years. My tutor was patient and brilliant.", rating: 5, date: "2023-12-08", project: "Private Tutoring" },
+      { name: "Kudzai Madanhire", image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=face", role: "A-Level Student", text: "Ridley's university counselling service is exceptional. They helped me identify the right universities and craft a compelling personal statement.", rating: 5, date: "2023-11-20", project: "University Prep" },
+      { name: "Mrs. Sithembile Ncube", image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=face", role: "Parent", text: "The communication with parents is outstanding. Regular progress reports, parent meetings, and an open-door policy make me feel involved in my child's education.", rating: 5, date: "2023-10-15", project: "Parent Communication" },
+      { name: "Tinotenda Shumba", image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face", role: "IGCSE Graduate", text: "I achieved 9 A*s in my IGCSEs. Ridley's structured approach and dedicated tutors made this possible. I am forever grateful.", rating: 5, date: "2023-09-28", project: "Cambridge IGCSE" },
+      { name: "Anopa Mutasa", image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face", role: "Revision Bootcamp Student", text: "The bootcamp was intense but worth every minute. The daily mock exams and immediate feedback built my confidence for the real thing.", rating: 5, date: "2023-08-14", project: "Revision Bootcamp" },
+      { name: "Mr. Simbarashe Choto", image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&h=100&fit=crop&crop=face", role: "Parent", text: "We transferred our son from a government school and the difference was immediate. Smaller classes, better resources, and tutors who actually care.", rating: 5, date: "2023-07-22", project: "O-Level Programme" },
+      { name: "Makanaka Zvobgo", image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&h=100&fit=crop&crop=face", role: "A-Level Student", text: "The Pomona campus is beautiful and peaceful. It is the perfect environment for focused studying. I love coming to school every day.", rating: 5, date: "2023-06-30", project: "Campus Life" },
+      { name: "Tafadzwa Chirinda", image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop&crop=face", role: "IELTS Prep Student", text: "I needed an IELTS score of 7.0 for university admission. Ridley's preparation course helped me achieve 7.5. Their techniques really work.", rating: 5, date: "2023-05-15", project: "IELTS Preparation" },
     ],
     ctaTitle: "Experience the Ridley Difference",
     ctaSubtitle: "See for yourself why every single parent and student rates us 5 stars.",
